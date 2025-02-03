@@ -31,12 +31,15 @@
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <mainNavItem icon="fas fa-home" link="/">
+          <MainNavItem icon="fas fa-home" link="/">
             Home
-          </mainNavItem>
-          <mainNavItem icon="fas fa-about" link="/">
+          </MainNavItem>
+          <MainNavItem icon="fas fa-users" link="/users">
+            Users
+          </MainNavItem>
+          <MainNavItem icon="fas fa-about" link="/about">
             About
-          </mainNavItem>
+          </MainNavItem>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

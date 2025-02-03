@@ -3,7 +3,7 @@
     <router-link class="nav-link" :to="link" :class="{ active: isActive() }">
       <i class="nav-icon" :class="icon" v-if="icon"></i>
       <p>
-        <slot/>
+        <slot />
       </p>
     </router-link>
   </li>
@@ -28,7 +28,6 @@ export default {
         return this.$route.path === this.link;
       }
     }
-
   }
 }
 </script>
